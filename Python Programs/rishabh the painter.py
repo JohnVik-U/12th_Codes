@@ -1,0 +1,5 @@
+x = int(input('lenght'))
+y = int(input('width'))
+z = int(input('height'))
+p = int(input('cost of paint per litre'))
+print(total_cost = ((x*y + y*z + x*z)*2)*p)
